@@ -1,6 +1,7 @@
 package cn.sp;
 
 import cn.sp.rpc.annotation.Service;
+import com.alibaba.fastjson.JSON;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,5 +16,12 @@ public class UserServiceImpl implements UserService{
         logger.info("现在是【3】号提供服务");
         User user = new User(1L,"XX",2,"www.aa.com");
         return ApiResult.success(user);
+    }
+
+    @Override
+    public String getUserString(Long id) {
+        logger.info("getUserString");
+        User user = new User(1L,"XX",2,"www.aa.com");
+        return JSON.toJSONString(ApiResult.success(user));
     }
 }
