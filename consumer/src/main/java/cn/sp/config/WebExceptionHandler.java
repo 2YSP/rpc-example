@@ -2,7 +2,7 @@ package cn.sp.config;
 
 import cn.sp.ApiResult;
 import cn.sp.ResultCode;
-import cn.sp.rpc.common.exception.RpcException;
+import com.github.ship.common.exception.RpcException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 

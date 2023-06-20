@@ -1,7 +1,7 @@
 package cn.sp;
 
-import cn.sp.rpc.client.generic.GenericService;
-import cn.sp.rpc.client.generic.GenericServiceFactory;
+import com.github.ship.client.generic.GenericService;
+import com.github.ship.client.generic.GenericServiceFactory;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

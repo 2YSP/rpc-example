@@ -43,9 +43,9 @@
         </dependency>
 
         <dependency>
-            <groupId>cn.sp.rpc</groupId>
-            <artifactId>rpc-spring-boot-starter</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <groupId>com.github.ship</groupId>
+            <artifactId>ship-rpc-spring-boot-starter</artifactId>
+            <version>1.0.0-RELEASE</version>
         </dependency>
 
     </dependencies>

@@ -1,7 +1,7 @@
 package cn.sp;
 
-import cn.sp.rpc.annotation.Service;
 import com.alibaba.fastjson.JSON;
+import com.github.ship.annotation.Service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
