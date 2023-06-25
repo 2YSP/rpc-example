@@ -23,7 +23,7 @@ public class GenericTestController {
 
     @GetMapping("")
     public String getUser(@RequestParam("id") Long id) {
-        //cn.sp.UserService.getUserString
+        //cn.sp.UserService.getUser
         GenericService instance = GenericServiceFactory.getInstance("cn.sp.UserService");
         Object result = instance.$invoke("getUser", new String[]{"java.lang.Long"}, new Object[]{id});
         return result.toString();
